@@ -35,7 +35,7 @@ app.set('port', (process.env.PORT || 5000));
 // });
 
 app.get('/', function(req, res) {
-  res.send('Hello World!');
+  res.send('Hello World! Muther Sucker!');
 });
 
 app.get('/cool', function(request, response) {
