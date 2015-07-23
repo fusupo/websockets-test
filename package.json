@@ -1,7 +1,6 @@
 {
   "name": "websockets-test",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "start": "node app.js"
   },
@@ -23,5 +22,12 @@
     "request": "~2.55.0",
     "time-grunt": "~1.1.0",
     "load-grunt-tasks": "~3.1.0"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fusupo/websockets-test.git"
   }
 }
