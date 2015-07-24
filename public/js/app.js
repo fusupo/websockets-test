@@ -6,7 +6,7 @@
 
 // connect to our socket server
 //var socket = io.connect('http://127.0.0.1:1337/');
-var socket = io.connect('http://http://immense-hollows-4901.herokuapp.com:1337/');
+var socket = io.connect(location.origin);
 
 var app = app || {};
 
